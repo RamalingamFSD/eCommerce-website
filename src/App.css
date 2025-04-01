@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  outline: none;
+}
+.navbar{
+ background-color: rgb(19,25,33);
+ padding: 14px 30px;
+ color: #fff;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ position: fixed;
+ width: 100%;
+ margin-bottom: 15px;
+}
+.middle{
+  display: flex;
+  align-items: center;
+}
+#searchInput{
+  padding: 0 20px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.search_icon, .cart-icon{
+  font-size: 40px;
+  cursor: pointer;
+}
+.cart-icon>sup{
+  font-size: 1rem;
+  position: relative;
+  top: -14px;
+  font-weight: 600;
+}
+.side{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+align-items: flex-start;
+justify-content: center;
+gap: 20px;
+padding-top: 100px;
+margin: 0 40px;
+}
+
+.cart{
+  border: 2px solid rgb(19,25,33);
+  text-align: center;
+  min-height: 440px;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+.cart>img{
+  width: 300px;
+  height: 270px;
+  object-fit: contain;
+}
+h4,h3{
+  padding-bottom: 20px;
+} 
+button{
+  border-radius: 20px;
+  background-color: rgb(241, 237, 23);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.billing{
+  background-color: rgb(19,25,33);
+  width: 600px;
+  min-height: 100%;
+  position: fixed;
+  top: 0px;
+  color: #fff;
+  padding: 20px;
+  right: -600px;
+  transition: .3s linear;
+  /* overflow-y: scroll; */
+  
+}
+.bill_show{
+  right: 0px;
+}
+.billcart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+}
+.times{
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.minipic{
+  width:50px;
+  height: 50px;
+}
+
+table {
+  width: 100%;
+}
+th{
+  text-align: left;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+
+}
+.cen{
+  text-align: center;
+}
+.pic{
+  width:15%
+}
+.quan{
+  width:10%;
+  text-align: center;
+}
+.amt{
+  width:20%;
+  text-align: right;
+  padding-right: 20px;
+}
+.final{
+  border-top: 1px solid #fff;
+  font-weight: bold;
+  padding-top: 10px;
+}
